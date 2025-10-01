@@ -1,11 +1,12 @@
 
 import pandas as pd
-import numpy as np
+
 
 def load_csv(path):
     """Load CSV and return a DataFrame."""
     df = pd.read_csv(path)
     return df
+
 
 def preprocess_data(df, features, target):
     """Simple preprocessing: fill missing values with median."""

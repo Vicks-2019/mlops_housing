@@ -1,4 +1,4 @@
-# src/config.py
+# Configuration file
 
 DATA_PATH = "housing.csv"
 MODEL_PATH = "model.joblib"
